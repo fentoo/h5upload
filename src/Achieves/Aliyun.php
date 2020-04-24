@@ -60,8 +60,8 @@ class Aliyun extends ThirdPartyUploadAbs implements ThirdPartyUpload
         return [
             'sts' => [
                 'SecurityToken' => $response['Credentials']['SecurityToken'],
-                'AccessKeySecret' => $response['Credentials']['AccessKeyId'],
-                'AccessKeyId' => $response['Credentials']['AccessKeySecret']
+                'AccessKeyId' => $response['Credentials']['AccessKeyId'],
+                'AccessKeySecret' => $response['Credentials']['AccessKeySecret']
             ],
             'oss' => [
                 'endpoint' => $this->config['endpoint'],
