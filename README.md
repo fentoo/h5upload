@@ -1,9 +1,9 @@
 #H5直传阿里云oss扩展
 
-###1.使用composer安装monsteryuan/h5upload扩展
+###1.使用composer安装fentoo/h5upload扩展
 
 ````
-composer require monsteryuan/h5upload 1.0.2.x-dev -vvvv
+composer require fentoo/h5upload dev-master -vvvv
 ````
 
 ###2.导出资源文件
